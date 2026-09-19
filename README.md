@@ -1,32 +1,69 @@
-# React + TypeScript + Vite
+# 🛡️ Sentinel Protocol - Web3 Autonomous Security & Circuit Breaker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Autonomous Real-Time Threat Detection, Mempool Surveillance, & Contagion Containment for DeFi Protocols**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Overview
 
-## React Compiler
+**Sentinel Protocol** is an enterprise-grade Web3 security operations dashboard designed to monitor, detect, and mitigate critical vulnerabilities and exploits across multi-chain smart contracts in real time. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built for decentralized protocols, security auditors, and DeFi risk managers, Sentinel provides automated circuit breakers, live mempool attack vector tracing, collateral contagion maps, and emergency pause orchestration.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Key Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **⚡ Live Mempool Radar:** Real-time monitoring of pending transactions, front-running bots, sandwich attacks, and flash-loan exploit patterns before block confirmation.
+- **🏥 Protocol Health & TVL Risk:** Real-time health factor tracking, liquidation thresholds, and debt pool utilization metrics.
+- **🌐 Contagion Map:** Interactive visualization of interconnected liquidity pools and systemic risk vectors across protocols.
+- **🛑 Autonomous Circuit Breakers:** Configurable automated fail-safes that trigger emergency pause mechanisms when anomalous drawdowns or exploit signatures are detected.
+- **👥 User & Whale Monitoring:** Granular wallet analytics, suspicious transaction alerts, and large-stake movement tracking.
+- **🚨 Incident Center:** Incident response coordination center with automated post-mortem log generation and EVM trace decompilation.
+- **📜 Cryptographic Audit Trail:** Immutable, tamper-evident audit logs of all governance and administrative security actions.
+- **🎮 Interactive Demo Mode:** Built-in attack simulation sandbox (Flash Loan attack, Oracle manipulation, Reentrancy) to demonstrate protocol resilience and circuit-breaker tripping.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, TypeScript, Vite
+- **Styling:** Tailwind CSS, Lucide Icons, Glassmorphism UI
+- **Architecture:** Modular Context-driven state management (`SecurityContext`, `AuthContext`)
+- **Performance:** Sub-second telemetry updates with optimized UI rendering
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### Installation & Local Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/rajangovinda036-hue/WEBBBBBBBBBBBBBB3.git
+
+# 2. Navigate to project directory
+cd WEBBBBBBBBBBBBBB3
+
+# 3. Install dependencies
+npm install
+
+# 4. Launch development server
+npm run dev -- --host
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Once running, access the dashboard at `http://localhost:5173`.
+
+---
+
+## 🧪 Demo Mode for Judges
+
+To quickly test the protocol defenses during evaluation:
+1. Navigate to the **Demo Mode** tab in the sidebar.
+2. Select an exploit vector (e.g., *Flash Loan Price Oracle Exploit*).
+3. Click **Simulate Attack**.
+4. Observe the automated **Circuit Breaker** trigger, isolating the compromised pool and halting unauthorized drainage in milliseconds.
