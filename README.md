@@ -44,10 +44,10 @@ Built for decentralized protocols, security auditors, and DeFi risk managers, Se
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/rajangovinda036-hue/WEBBBBBBBBBBBBBB3.git
+git clone https://github.com/jayasuryacs25-netizen/CyberWarrier.git
 
 # 2. Navigate to project directory
-cd WEBBBBBBBBBBBBBB3
+cd CyberWarrier
 
 # 3. Install dependencies
 npm install
